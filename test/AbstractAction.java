@@ -26,6 +26,8 @@ public abstract class AbstractAction extends AbstractComponent {
 	   
 	protected abstract void doExecute(Object arg) throws Exception;
 	
+	
+	
 	public void setNextStep(AbstractComponent nextStep) {
 	      this.nextStep = nextStep;
 	}
